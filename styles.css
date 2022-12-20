@@ -12,7 +12,7 @@ font-family: "Tangerine"; */
     src: local('Ogg-Roman'), url('assets/Fonts/Ogg-Roman.otf') format('opentype');
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -90,20 +90,20 @@ body {
     transition: 1s all ease;
 }
 
-.menuActif{
+.menuActif {
     width: 150px;
 }
 
-#burger{
+#burger {
     width: 35px;
     transition: 1s all ease;
 }
 
-.hidden{
+.hidden {
     opacity: 0;
 }
 
-.nav-item{
+.nav-item {
     padding-left: 5px;
     font-family: ("Ogg-Roman");
 }
@@ -127,7 +127,7 @@ body {
     transition: 1s all ease;
 }
 
-.navActif{
+.navActif {
     left: 0px
 }
 
@@ -138,7 +138,7 @@ body {
     color: #000;
     transition: 0.3s all ease;
     /* Permet d'animer avec une transition la couleur ou autre */
-    
+
 }
 
 .nav-link:hover {
@@ -159,7 +159,7 @@ body {
     z-index: 1000;
 }
 
-#reseaux a{
+#reseaux a {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
@@ -223,7 +223,7 @@ body {
     line-height: 2;
 }
 
-.page3{
+.page3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -233,15 +233,15 @@ body {
 
 }
 
-.case{
+.case {
     width: auto;
     height: 100%;
-    border-width: 1px ;
+    border-width: 1px;
     border: solid #76B13F;
     padding: 10px;
 }
 
-.cases{
+.cases {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -249,23 +249,23 @@ body {
     margin-top: 50px;
 }
 
-.case img{
+.case img {
     height: 50px;
     width: auto;
 }
 
-.textePage3{
+.textePage3 {
     text-align: center;
     padding: 50px;
     margin-top: 50px;
 }
 
-.textePage3 p{
+.textePage3 p {
     font-size: 20px;
     line-height: 2;
 }
 
-.page4{
+.page4 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -274,7 +274,7 @@ body {
     margin: 50px 0px;
 }
 
-.footer{
+.footer {
     display: flex;
     background-color: black;
     flex-direction: column;
@@ -291,15 +291,15 @@ body {
     color: white;
 }
 
-.page4 h1{
+.page4 h1 {
     margin-bottom: 400px;
 }
 
-#nom{ 
+#nom {
     margin-top: 0;
 }
 
-.page5{
+.page5 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -312,10 +312,11 @@ body {
     margin-bottom: 400px;
 }
 
-.page5 h4{
+.page5 h4 {
     text-decoration: underline;
     margin-top: 200px;
 }
+
 .Contactez-moi {
     display: flex;
     flex-direction: column;
@@ -411,13 +412,15 @@ form button {
     box-shadow: 0px 4px 4px 0px white (0, 0, 0, 0.25);
     color: white;
 }
- #ConditionsFormulaire {
+
+#ConditionsFormulaire {
     text-align: center;
     margin: 50px;
- }
+}
 
- 
-
-
-
-
+@media screen and (max-width:640px){
+    #container {
+        justify-content: center;
+    }
+}
+  
