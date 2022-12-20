@@ -186,7 +186,10 @@ body {
 
 
 .page2 {
+    display: flex;
+    width: 100vw;
     background-image: url("assets/Img/Photo_clavier.jpg");
+    background-position: center;
     text-align: left;
     font-size: 15px;
     /* font-weight: bold; */
@@ -212,7 +215,7 @@ body {
 #presentation {
     flex-direction: column;
     background-color: #cfd0c850;
-    width: 50vw;
+    width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -418,9 +421,32 @@ form button {
     margin: 50px;
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:800px){
     #container {
         justify-content: center;
+    }
+
+    #reseaux a {
+        margin: 50px 0;
+    }
+
+    #presentation {
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        font-size: 14px;
+        height: auto;
+        background-color: #cfd0c880;
+    }
+
+    .page2 {
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 0 0;
+    }
+
+    .page3 p{
+        font-size: 14px;
     }
 }
   
