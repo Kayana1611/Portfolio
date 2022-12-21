@@ -16,7 +16,7 @@ font-family: "Tangerine"; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
 body {
     overflow-x: hidden;
@@ -58,7 +58,7 @@ body {
     font-family: 'Ogg-Roman';
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -436,7 +436,7 @@ form button {
     margin: 50px;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
     #container {
         justify-content: center;
     }
@@ -460,8 +460,36 @@ form button {
         padding: 0 0 0 0;
     }
 
-    .page3 p{
+    .page3 p {
         font-size: 14px;
     }
+
+    .cases {
+        flex-direction: column;
+        width: auto;
+        gap: 10px;
+
+    }
+
+    .footer {
+        font-size: 14px;
+
+    }
+
+    form div>input,
+    form div>select,
+    form div>textarea {
+        font-size: 12px;
+    }
+
+    form button {
+        font-size: 14px;
+    }
+
+    #logo {
+        width: 60vw;
+    }
+
+
+
 }
-  
